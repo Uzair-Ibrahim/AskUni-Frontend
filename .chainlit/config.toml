@@ -33,7 +33,7 @@ latex = false
 user_message_markdown = true
 
 # Autoscroll new user messages at the top of the window
-user_message_autoscroll = true
+user_message_autoscroll = false  # RESOLVE FORCED SCROLL
 
 # Autoscroll new assistant messages
 assistant_message_autoscroll = true
