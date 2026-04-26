@@ -42,7 +42,7 @@ assistant_message_autoscroll = true
 auto_tag_thread = true
 
 # Allow users to edit their own messages
-edit_message = true
+edit_message = false  # USER CAN NOT EDIT THEIR MESSAGE
 
 # Allow users to share threads (backend + UI). Requires an app-defined on_shared_thread_view callback.
 allow_thread_sharing = false
@@ -56,7 +56,7 @@ reaction_on_message_received = false
 
 # Authorize users to spontaneously upload files with messages
 [features.spontaneous_file_upload]
-    enabled = true
+    enabled = false  # USER CAN NOT UPLOAD FILES
     # Define accepted file types using MIME types
     # Examples:
     # 1. For specific file types:
@@ -95,7 +95,7 @@ reaction_on_message_received = false
 
 [UI]
 # Name of the assistant.
-name = "Assistant"
+name = "AskUni"  # NEW NAME
 
 # default_theme = "dark"
 
@@ -124,7 +124,7 @@ cot = "full"
 
 # Specify a CSS file that can be used to customize the user interface.
 # The CSS file can be served from the public directory or via an external link.
-# custom_css = "/public/test.css"
+# custom_css = "/public/custom.css"  # FOR CUSTOM STYLING
 
 # Specify additional attributes for a custom CSS file
 # custom_css_attributes = "media=\"print\""
@@ -153,10 +153,10 @@ alert_style = "classic"
 # custom_meta_image_url = "https://chainlit-cloud.s3.eu-west-3.amazonaws.com/logo/chainlit_banner.png"
 
 # Load assistant logo directly from URL.
-logo_file_url = ""
+logo_file_url = ""  # LOGO (ON PAGE REFRESH)
 
 # Load assistant avatar image directly from URL.
-default_avatar_file_url = ""
+default_avatar_file_url = ""  # CHATBOT MSG LOGO
 
 # Avatar size in pixels (default: 20).
 # avatar_size = 20
