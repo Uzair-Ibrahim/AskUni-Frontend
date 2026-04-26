@@ -153,13 +153,13 @@ alert_style = "classic"
 # custom_meta_image_url = "https://chainlit-cloud.s3.eu-west-3.amazonaws.com/logo/chainlit_banner.png"
 
 # Load assistant logo directly from URL.
-logo_file_url = ""  # LOGO (ON PAGE REFRESH)
+logo_file_url = "/public/logo.png"  # LOGO (ON PAGE REFRESH)
 
 # Load assistant avatar image directly from URL.
-default_avatar_file_url = ""  # CHATBOT MSG LOGO
+default_avatar_file_url = "/public/logo.png"  # CHATBOT MSG LOGO
 
 # Avatar size in pixels (default: 20).
-# avatar_size = 20
+avatar_size = 25
 
 # Specify a custom build directory for the frontend.
 # This can be used to customize the frontend code.
