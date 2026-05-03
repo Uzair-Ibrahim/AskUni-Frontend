@@ -6,7 +6,7 @@ import asyncio
 
 async def get_llm_answer(user_input: str) -> str:
 
-    # TODO: Replace this with a real API call to your FastAPI backend
+    # TODO
 
     # 1 second delay to test frontend
     await asyncio.sleep(2)
