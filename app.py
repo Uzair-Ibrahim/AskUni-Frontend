@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8001")
+BACKEND_URL = os.getenv("BACKEND_URL", "https://askuni-8fq72.ondigitalocean.app/")
 ROLL_PATTERN = re.compile(r"\b2\dK-\d{4}\b", re.IGNORECASE)
 ROLL_PLACEHOLDER_PATTERN = re.compile(r"\b2xk-xxxx\b", re.IGNORECASE)
 
