@@ -132,8 +132,8 @@
             "title": "Settings panel",
             "customize": "Customize your chat settings here"
         },
-        "//watermark": "LLMs can make mistakes. Check important info.",
-        "watermark": "Uzair Ibrahim · Haseeb Lodhi · Ali Hamza" 
+        "//watermark": "Footer text shown under the chat.",
+        "watermark": "AskUni v0.0"
     },
     "threadHistory": {
         "sidebar": {

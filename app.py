@@ -15,6 +15,18 @@ ROLL_PATTERN = re.compile(r"\b2\dK-\d{4}\b", re.IGNORECASE)
 ROLL_PLACEHOLDER_PATTERN = re.compile(r"\b2xk-xxxx\b", re.IGNORECASE)
 
 
+@cl.set_chat_profiles
+async def set_chat_profiles(user: cl.User | None, language: str | None):
+    return [
+        cl.ChatProfile(
+            name="AskUni",
+            markdown_description="# Welcome FAST University\n\nFirst ever chatbot.",
+            icon="/public/logo.png",
+            default=True,
+        )
+    ]
+
+
 async def get_llm_answer(user_input: str) -> str:
 
     session_id = cl.user_session.get("session_id")
